@@ -4,21 +4,23 @@
 }
 
 .header {
-  background-color: aqua;
+  background-color: #62ddff;
   height: 100vh;
 }
 .desktop-nav {
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20px 0px;
+  padding: 30px 0px;
+  display: none;
 }
 
 .button {
+  display: block;
   background-color: transparent;
-  padding: 10px 40px;
-  border: 2px solid white;
+  padding: 15px 35px;
+  border: 1px solid white;
   color: white;
   font-size: 14px;
   font-weight: 500;
@@ -28,9 +30,6 @@
 .button:hover {
   background-color: white;
   color: black;
-}
-
-.nav-bar {
 }
 
 .nav-bar a {
@@ -53,21 +52,112 @@
 .mobile-nav {
   background-color: black;
   height: 80px;
+  display: none;
 }
 .navbar-items {
   display: flex;
   flex-direction: column;
+  position: absolute;
+  width: 100%;
 }
 .navbar-items a {
   display: block;
   text-decoration: none;
   color: white;
   background-color: black;
-  padding: 10px 0px;
-  text-align: center;
+  padding: 10px 20px;
 }
 .flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+@media (max-width: 991px) {
+  .mobile-nav {
+    display: block;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+  }
+  .mycard2 {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .desktop-nav {
+    display: flex;
+  }
+}
+
+.gray-line {
+  height: 2px;
+  width: 100%;
+  background-color: #252626;
+}
+
+.navbar-items a:hover {
+  color: white;
+}
+
+.mycard {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellow; */
+  height: 80vh;
+}
+.mycard h2 {
+  font-size: 36px;
+  /* background-color: red; */
+}
+
+.mycard p {
+  font-size: 14px;
+}
+
+.btn2 {
+  padding: 15px 35px;
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.slika2 {
+  /* background-color: green; */
+  height: 317px;
+  width: 530px;
+}
+
+.icon1 {
+  height: 50px;
+  width: 50px;
+}
+
+.sec2 {
+  height: 100vh;
+}
+
+.card1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
