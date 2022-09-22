@@ -7,9 +7,17 @@
   background-color: #62ddff;
   height: 100vh;
 }
+
+.nav-header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  background-color: #62ddff;
+}
 .desktop-nav {
-  /* background-color: red; */
   display: flex;
+
   justify-content: space-around;
   align-items: center;
   padding: 30px 0px;
@@ -22,6 +30,7 @@
   padding: 15px 35px;
   border: 1px solid white;
   color: white;
+  border-radius: 5px;
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
