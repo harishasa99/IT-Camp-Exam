@@ -83,6 +83,80 @@
   padding: 20px 20px;
 }
 
+@media (max-width: 767px) {
+  .btn3 {
+    display: inline-block;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+  }
+  .p__9 {
+    margin-bottom: 15px;
+  }
+
+  .btn4 {
+    display: inline-block;
+    background-color: #62ddff;
+    color: white;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 10px;
+  }
+  .flex3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .pic3 {
+    display: none;
+  }
+
+  .pic8 {
+    width: 400px;
+    height: 200px;
+  }
+
+  .item2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+  .pic2 {
+    height: 200px;
+    width: 300px;
+    margin-top: 30px;
+  }
+  .form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .p__11 {
+    padding: 60px 0px;
+  }
+}
+
 @media (max-width: 991px) {
   .mobile-nav {
     display: block;
@@ -141,6 +215,7 @@
     height: 100vh;
     padding: 40px 0px;
   }
+
   .btn5 {
     margin-bottom: 15px;
   }
@@ -149,8 +224,8 @@
   }
 
   .pic3 {
-    width: 555px;
-    height: 300px;
+    width: 355px;
+    height: 200px;
 
     margin-top: 40px;
   }
@@ -169,6 +244,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .item2 {
+    display: flex;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+  }
+  .pic2 {
+    height: 250px;
+    width: 400px;
+  }
+  .sec7 {
+    background-color: #62ddff;
+  }
+  .sec8 {
+    background-color: #000410;
+  }
+  .form {
+    display: flex;
+    align-items: center;
+  }
+  .flex5 {
+    display: flex;
+  }
+  .folow1 {
+    margin-top: 40px;
+  }
+
+  .p__11 {
+    padding: 100px 0px;
   }
 }
 
@@ -242,6 +348,53 @@
     height: 585.406px;
     background-color: #edf6ff;
   }
+  .sec2 {
+    height: 100vh;
+  }
+  .item2 {
+    display: flex;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+  }
+
+  .flex4 {
+    display: flex;
+    justify-content: center;
+  }
+  .p__10 {
+    padding: 120px 0px;
+  }
+  .pic2 {
+    height: 280px;
+    width: 450px;
+  }
+  .sec7 {
+    background-color: #62ddff;
+    height: 50vh;
+  }
+  .sec8 {
+    height: 50vh;
+    background-color: #000410;
+  }
+  .form {
+    display: flex;
+    align-items: center;
+  }
+  .flex5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .p__11 {
+    padding: 120px 0px;
+  }
+  .folow1 {
+    margin-bottom: 40px;
+  }
+  .p__12 {
+    margin-bottom: 30px;
+  }
 }
 
 .gray-line {
@@ -260,12 +413,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: yellow; */
   height: 80vh;
 }
 .mycard h2 {
   font-size: 36px;
-  /* background-color: red; */
 }
 
 .mycard p {
@@ -305,13 +456,8 @@
 }
 
 .slika2 {
-  /* background-color: green; */
   height: 317px;
   width: 530px;
-}
-
-.sec2 {
-  height: 100vh;
 }
 
 .card1 {
@@ -464,12 +610,6 @@
   background-color: #edf6ff;
 }
 
-.item2 {
-  background-color: white;
-  padding: 20px 30px;
-  border-radius: 5px;
-}
-
 .item2:hover h6 {
   color: #62ddff;
 }
@@ -481,16 +621,6 @@
 .sec6 {
   height: 572.094px;
   background-color: white;
-}
-
-.pic2 {
-  height: 280px;
-  width: 450px;
-}
-
-.sec7 {
-  background-color: #62ddff;
-  height: 50vh;
 }
 
 .clr2 {
@@ -517,16 +647,6 @@
   border-radius: 0px;
   border: 0px solid white;
   padding: 0px 15px;
-}
-
-.sec8 {
-  height: 50vh;
-  background-color: #000410;
-}
-
-.form {
-  display: flex;
-  align-items: center;
 }
 
 textarea:focus,
