@@ -237,8 +237,8 @@
   .pic4 {
     padding-top: 20px;
     display: block;
-    height: 300px;
-    width: 400px;
+    height: 200px;
+    width: 300px;
   }
   .sec4 {
     height: 100vh;
@@ -683,4 +683,8 @@ input:focus {
 
 .pp a {
   text-decoration: none;
+}
+
+.hh2 {
+  font-family: "Heboo", sans-serif;
 }
